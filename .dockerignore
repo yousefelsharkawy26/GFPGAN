@@ -1,0 +1,9 @@
+experiments/
+inputs/
+results/
+.git/
+.github/
+__pycache__/
+*.pth
+*.jpg
+*.png
