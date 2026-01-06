@@ -20,4 +20,4 @@ jobs:
           echo "${{ secrets.REPLICATE_API_TOKEN }}" | cog login --token-stdin
 
       - name: Push to Replicate
-        run: cog push r8.im/YOUR_USERNAME/gfpgan
+        run: cog push r8.im/yousefelsharkawy26/gfpgan
