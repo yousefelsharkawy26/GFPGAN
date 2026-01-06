@@ -6,7 +6,7 @@
 
 import os
 
-os.system('python setup.py develop')
+# os.system('python setup.py develop')
 os.system('pip install realesrgan')
 
 import cv2
