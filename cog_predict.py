@@ -71,8 +71,8 @@ class Predictor(BasePredictor):
                 choices=['v1.2', 'v1.3', 'v1.4', 'RestoreFormer'],
                 default='v1.4'),
             scale: float = Input(description='Rescaling factor', default=2),
+            weight: float = Input(description='Weight, only for v1.4, v1.3, v1.2, RestoreFormer', default=0.5),
     ) -> Path:
-        weight = 0.5
         print(img, version, scale, weight)
         try:
             extension = os.path.splitext(os.path.basename(str(img)))[1]
