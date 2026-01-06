@@ -1,5 +1,4 @@
-# This file is used for constructing replicate env
-image: "r8.im/tencentarc/gfpgan"
+
 
 build:
   gpu: true
@@ -18,5 +17,6 @@ build:
     - "yapf==0.31.0"
     - "basicsr==1.4.2"
     - "facexlib==0.2.5"
+    - "realesrgan"
 
 predict: "cog_predict.py:Predictor"

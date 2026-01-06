@@ -7,7 +7,7 @@
 import os
 
 # os.system('python setup.py develop')
-os.system('pip install realesrgan')
+# os.system('pip install realesrgan')
 
 import cv2
 import shutil
